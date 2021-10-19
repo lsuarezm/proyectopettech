@@ -1,0 +1,166 @@
+/*URL font*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;   
+   }
+   
+   .content{
+       width: 1200px;
+       margin: 0 auto;
+       padding: 20px 0;
+   }
+   
+   .clearfix{
+    clear: both;
+    float: none;
+}
+
+   
+   /*HEADER*/
+   header{
+       width: 100%;
+       background: #2eb89b;
+       height: 90px;
+   }
+   
+   header img{
+       float: left;
+       height: 80%;
+       width: auto;
+   }
+
+   /*MENU*/
+   nav {
+       float: right;
+   }
+   
+   nav a{
+       padding: 10px 20px;
+       color: white;
+       text-decoration: none;
+       line-height: 50px;
+       font-weight: bold;
+       border-radius: 5px;
+       transition: all 1s;
+   }
+   
+   nav a:hover{
+       background: white;
+       color: #2eb89b;
+   }
+
+  /*Formulario*/
+   .anton{font-family: 'Anton', sans-serif;}
+   .ubuntu{font-family: 'Ubuntu', sans-serif;}
+
+   #form.width{width:100%}
+   #form-container{
+      width:75%;
+      margin: 120px auto;
+      margin-bottom: 120px;
+      background-color: #7fc8a9 ;
+      border-radius: 5px;
+      padding: 10px 0;
+      
+   }
+   #form-container .logotipe a{
+     text-decoration: none;
+     margin: 30px 0px
+   }
+   #form-container .logotipe a img{
+        width: 30px;
+        height: 30px;
+    }
+   #form-container .logotipe a h3{
+       margin-left: 10px;
+       color: black;
+       font-size: 30px;
+       font-weight: 300;
+   }
+   #form-container div h4{
+       font-size: 40px;
+       letter-spacing: 3px;
+       color: black;
+   }
+   #form-container div h4{
+       width: 70%;
+       margin: auto;
+   }
+
+   #form-container .inputs-form{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       padding: 0px 40px;
+   }
+   #form-container .inputs-form label{
+       font-size: 16px;
+       color: black;
+   }
+   #form-container .inputs-form #send-form{
+       background-color: #7C83FD;
+       margin-bottom: 50px;
+       color: #212121;
+       font-size: 16px;
+       font-weight: bold;
+   }
+
+   /**Formulario Imagen**/
+   #form-container .img-form{
+       background-color: #7fc8a9;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+
+   /*Footer*/
+   footer{
+       width: 100%;
+       background: #d7d7d7;
+       padding: 30px 0;
+       text-align: center;
+   
+   }
+   
+   .footer-content{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       text-align: center;
+    
+   }
+   
+   .footer-content h3{
+       font-size: 1.2rem;
+       font-weight: bold;
+   }
+   
+   .footer-content p{
+   margin: 10px auto;
+   font-size: 14px;
+   }
+   
+   .socials{
+       list-style: none;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   
+   .socials li{
+       margin: 0 10px;
+   }
+   
+   /*Clase icono acceso*/
+   .icono{
+       color:white;
+       font-size: 20px;
+   }
