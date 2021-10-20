@@ -1,0 +1,141 @@
+ /*URL font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Ubuntu:wght@300;400&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;  
+   }
+   
+   .content{
+       width: 1200px;
+       margin: 0 auto;
+       padding: 20px 0;
+   }
+   
+   .clearfix{
+       clear: both;
+       float: none;
+   }
+   
+   /*HEADER*/
+
+   header{
+       width: 100%;
+       background: #2eb89b;
+       height: 90px;
+   }
+   
+   header img{
+       float: left;
+       height: 80%;
+       width: auto;
+   }
+
+   /*MENU*/
+
+   nav {
+       float: right;
+   }
+   
+   nav a{
+       padding: 10px 20px;
+       color: white;
+       text-decoration: none;
+       line-height: 50px;
+       font-weight: bold;
+       border-radius: 5px;
+       transition: all 1s;
+   }
+   
+   nav a:hover{
+       background: white;
+       color: #2eb89b;
+   }
+   
+
+   
+   /*Servicios*/
+   
+   .servicios{
+       width: 980px;
+       list-style: none;
+       margin: 100px auto;
+
+   }
+   .content h1{
+       font-size: 30px ;
+       font-family: 'Ubuntu', sans-serif;  
+   }
+   
+   .servicios li{
+       float: left;
+       width: 200px;
+       height: 200px;
+       text-align: center;
+       background: #2eb89b;
+       color: white;
+       font-weight: bold;
+       font-size: 100%;
+       margin: 60px;
+       border-radius: 5px;
+       font-family: 'Ubuntu', sans-serif;  
+   }
+   
+   .servicios li img{
+       width: 110px;
+       height: auto;
+       margin: 20px auto;
+       display: block;
+   }
+   
+   /*Footer*/
+
+   footer{
+    width: 100%;
+    background: #d7d7d7;
+    padding: 30px 0;
+    text-align: center;
+    }
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+
+.footer-content h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;  
+
+}
+
+.footer-content p{
+margin: 10px auto;
+font-size: 14px;
+font-family: 'Ubuntu', sans-serif;  
+
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials li{
+    margin: 0 10px;
+}  
+
+/*Clase icono acceso*/
+
+.icono{
+       color:white;
+       font-size: 20px;
+   }
